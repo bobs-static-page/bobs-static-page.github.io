@@ -12,7 +12,7 @@ html, body {
 header.center {
   padding:  6vw;
   text-align:  center;
-  font-family:  monaco;
+  font-family:  "Monaco";
 }
 
 p {
