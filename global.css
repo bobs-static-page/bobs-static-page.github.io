@@ -6,7 +6,6 @@ html, body {
   padding-right:  2.5vmax;
   max-height:  97vmax;
   max-width:  95vmax;
-  font-family:  "Monaco", monospace;
 }
 
 body.home {
@@ -16,14 +15,16 @@ body.home {
 header.center {
   padding:  3.5vw;
   text-align:  center;
+  font-size: 3vmax;
+  font-family:  "Monaco", monospace;
 }
 
-p {
+p.content {
   font-size:  2vmax;
   text-align:  justify;
+  font-family: "Courier New", monospace;
 }
 
-h1 {
-  font-size:  3vmax;
-  text-align:  center;
+h2.content {
+  
 }
