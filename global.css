@@ -1,0 +1,26 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url("https://necolas.github.io/normalize.css/latest/normalize.css");
+
+html, body {
+  padding-left:  2.5vmax;
+  padding-right:  2.5vmax;
+  max-height:  97vmax;
+  max-width:  95vmax;
+  background-color:  Gainsboro;
+}
+
+header.center {
+  padding:  6vw;
+  text-align:  center;
+  font-family:  monaco;
+}
+
+p {
+  font-size:  2vmax;
+  text-align:  justify;
+}
+
+h1 {
+  font-size:  3vmax;
+  text-align:  center;
+}
