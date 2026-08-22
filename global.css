@@ -6,13 +6,16 @@ html, body {
   padding-right:  2.5vmax;
   max-height:  97vmax;
   max-width:  95vmax;
+  font-family:  "Monaco", monospace;
+}
+
+body.home {
   background-color:  Gainsboro;
 }
 
 header.center {
   padding:  3.5vw;
   text-align:  center;
-  font-family:  "Monaco", monospace;;
 }
 
 p {
