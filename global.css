@@ -2,29 +2,63 @@
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
 html, body {
-  padding-left:  2.5vmax;
-  padding-right:  2.5vmax;
-  max-height:  97vmax;
-  max-width:  95vmax;
+  padding-left:  2.5vw;
+  padding-right:  2.5vw;
+  max-height:  97vh;
+  max-width:  95vw;
 }
 
 body.home {
   background-color:  Gainsboro;
 }
 
-header.center {
-  padding:  3.5vw;
+header {
+  margin: 2vh;
+  font-size: 3vmin;
   text-align:  center;
-  font-size: 2.1vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family:  "Monaco", monospace;
+  outline: solid;
+  height: 15vh;
 }
 
-p.content {
-  font-size:  3vmin;
+footer {
+  margin-top: 1vh;
+  font-size: 1vmin;
+  float: right;
+  font-family:  "Courier", monospace;
+  outline: solid;
+  height: 2vh;
+}
+
+div.content {
+  outline: solid;
+}
+
+div.content > p {
+  font-size: 2.6vmin;
   font-family: "Courier New", monospace;
   line-height: 1.4;
+
 }
 
-h2.content {
+div.gallery {
+  padding: 1vh;
+  margin-top: 1vh;
+  display: grid;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50%;
   
+  outline: solid;
+}
+
+div.gallery div {
+	margin: 5px;
+	display: flex;
+	outline: solid;
 }
