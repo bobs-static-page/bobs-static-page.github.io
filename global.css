@@ -10,9 +10,9 @@ html, body {
 }
 
 header.center {
-  padding:  6vw;
+  padding:  3.5vw;
   text-align:  center;
-  font-family:  "Monaco";
+  font-family:  "Monaco", monospace;;
 }
 
 p {
