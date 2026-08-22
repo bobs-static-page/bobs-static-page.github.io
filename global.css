@@ -20,8 +20,9 @@ header.center {
 }
 
 p.content {
-  font-size:  3.5vmax;
+  font-size:  2vmax;
   font-family: "Courier New", monospace;
+  line-height: 1.4;
 }
 
 h2.content {
