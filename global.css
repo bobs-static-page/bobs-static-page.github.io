@@ -19,7 +19,7 @@ header.center {
   font-family:  "Monaco", monospace;
 }
 
-pre.content {
+p.content {
   font-size:  3.5vmax;
   font-family: "Courier New", monospace;
 }
