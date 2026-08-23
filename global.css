@@ -1,18 +1,51 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
-html, body {
-padding-left:  2.5vw;
-padding-right:  2.5vw;
-max-height:  97vh;
-max-width:  95vw;
-background-color: SeaShell;
+:root {
+font-size: clamp(1.2rem, 1.2vw + 1rem, 3rem); /*Standard font size*/
 }
 
+html, body {
+padding: 0 1.1vw;
+margin: auto;
+max-height: 97vh;
+max-width: 95vw;
+background-color: SeaShell;
+font-family: Courier, monospace;
+}
 
 p {
 font-family: Courier, monospace;
-font-size: clamp(1.2rem, 1.8vw + 1rem, 3rem);
-color: SlateGray;
+font-size: 1rem;
+color: DarkSlateGrey;
+line-height: 1.4;
 }
 
+h1, h2, h3 {
+font-family: Tahoma, sans-serif;
+color: DimGray;
+line-height: 1.2;
+}
+
+h1 {
+font-size: 1.2rem;
+}
+
+h2 {
+font-size: 1.15rem;
+}
+
+h3 {
+font-size: 1.1rem;
+}
+
+.buttons {
+display: grid;
+grid-template-columns: 30% 30% 30%;
+justify-content: center;
+padding: 20px 0;
+margin: 10px;
+font-family: Trebuchet MS, sans-serif;
+font-size: 0.9rem;
+text-align: center;
+}
