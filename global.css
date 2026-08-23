@@ -2,63 +2,88 @@
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
 html, body {
-  padding-left:  2.5vw;
-  padding-right:  2.5vw;
-  max-height:  97vh;
-  max-width:  95vw;
+padding-left:  2.5vw;
+padding-right:  2.5vw;
+max-height:  97vh;
+max-width:  95vw;
 }
 
 body.home {
-  background-color:  Gainsboro;
+background-color:  Gainsboro;
+}
+
+body.coffee {
+background-color: Linen;
+}
+
+body.perfumery {
+background-color: LavenderBlush;
+}
+
+body.gastronomy {
+background-color: MintCream;
+}
+
+body.tea {
+background-color: OldLace;
+}
+
+body.books {
+background-color: Cornsilk;
+}
+
+body.thoughts {
+background-color: PapayaWhip;
 }
 
 header {
-  margin: 2vh;
-  font-size: 3vmin;
-  text-align:  center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family:  "Monaco", monospace;
-  outline: solid;
-  height: 15vh;
+margin: 3.5vh;
+padding-bottom: 2vh;
+padding-top: 2vh;
+font-size: 3vmin;
+text-align:  center;
+float: none;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:  "Monaco", monospace;
+font-weight: normal;
+height: 15vh;
 }
 
 footer {
-  margin-top: 1vh;
-  font-size: 1vmin;
-  float: right;
-  font-family:  "Courier", monospace;
-  outline: solid;
-  height: 2vh;
+margin: 1vh;
+font-size: 1vmin;
+text-align:  right;
+float: right;
+display: flex;
+justify-content: center;
+align-items: baseline;
+font-family:  "Courier", monospace;
+
+height: 2vh;
 }
 
 div.content {
-  outline: solid;
-}
-
-div.content > p {
-  font-size: 2.6vmin;
-  font-family: "Courier New", monospace;
-  line-height: 1.4;
+font-size: 2.6vmin;
+font-family: "Courier New", monospace;
+line-height: 1.4;
 
 }
 
-div.gallery {
-  padding: 1vh;
-  margin-top: 1vh;
-  display: grid;
-  justify-content: center;
-
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 50%;
-  
-  outline: solid;
+div.grid {
+padding: 1vh;
+margin-top: 1vh;
+display: grid;
+justify-content: center;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 50%;
 }
 
-div.gallery div {
-	margin: 5px;
-	display: flex;
-	outline: solid;
+div.grid div {
+margin: 15px;
+display: flex;
+font-family:  "Courier", monospace;
+font-size: 3vh;
 }
