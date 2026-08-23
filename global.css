@@ -6,89 +6,13 @@ padding-left:  2.5vw;
 padding-right:  2.5vw;
 max-height:  97vh;
 max-width:  95vw;
+background-color: SeaShell;
 }
 
-body.home {
-background-color:  Gainsboro;
+
+p {
+font-family: Courier, monospace;
+font-size: clamp(1.2rem, 1.8vw + 1rem, 3rem);
+color: SlateGray;
 }
 
-body.coffee {
-background-color: Linen;
-}
-
-body.perfumery {
-background-color: LavenderBlush;
-}
-
-body.gastronomy {
-background-color: MintCream;
-}
-
-body.tea {
-background-color: OldLace;
-}
-
-body.books {
-background-color: Cornsilk;
-}
-
-body.thoughts {
-background-color: PapayaWhip;
-}
-
-header {
-margin-top: 0.5vh;
-margin-bottom: 0.5vh;
-font-size: 3vmin;
-text-align:  center;
-float: none;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family:  "Monaco", monospace;
-font-weight: normal;
-height: 10vh;
-}
-
-footer {
-margin: 1vh;
-font-size: 1vmin;
-text-align:  right;
-float: right;
-display: flex;
-justify-content: center;
-align-items: baseline;
-font-family:  "Courier", monospace;
-
-height: 2vh;
-}
-
-div.content > p{
-font-size: 2.1vmin;
-font-family: "Courier New", monospace;
-line-height: 1.4;
-}
-
-div.content > h2 {
-font-size: 3vmin;
-font-family: "Monaco", monospace;
-line-height: 1;
-text-align: center
-}
-
-div.grid {
-padding: 1vh;
-display: grid;
-justify-content: center;
-display: grid;
-grid-template-columns: 33% 33% 33%;
-grid-template-rows: 50%;
-margin: auto;
-}
-
-div.grid div {
-margin: 15px;
-display: flex;
-font-family:  "Courier", monospace;
-font-size: 1.5vh;
-}
