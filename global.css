@@ -63,11 +63,17 @@ font-family:  "Courier", monospace;
 height: 2vh;
 }
 
-div.content {
-font-size: 2.6vmin;
+div.content > p{
+font-size: 2.1vmin;
 font-family: "Courier New", monospace;
 line-height: 1.4;
+}
 
+div.content > h2 {
+font-size: 3vmin;
+font-family: "Monaco", monospace;
+line-height: 1;
+text-align: center
 }
 
 div.grid {
@@ -77,6 +83,7 @@ justify-content: center;
 display: grid;
 grid-template-columns: 33% 33% 33%;
 grid-template-rows: 50%;
+margin: auto;
 }
 
 div.grid div {
