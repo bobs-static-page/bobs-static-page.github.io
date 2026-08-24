@@ -8,7 +8,7 @@
 	 padding: 0 1.1vw;
 	 margin: auto;
 	 max-height: 97vh;
-	 max-width: 95vw;
+	 max-width: 85vw;
 	 background-color: #F7F5F2;
 	 font-family: Courier, monospace;
 	 color: #06203F;
@@ -18,9 +18,9 @@
 	 text-align: center;
 }
  p {
-	 font-size: 1rem;
 	 color: DarkSlateGrey;
 	 line-height: 1.4;
+	 margin: 1vh auto;
 }
  h1, h2, h3 {
 	 font-family: Tahoma, sans-serif;
@@ -28,19 +28,20 @@
 	 line-height: 1.2;
 }
  h1 {
-	 font-size: 1.2rem;
+	 font-size: 1.3rem;
 }
  h2 {
-	 font-size: 1.15rem;
+	 font-size: 1.25rem;
 }
  h3 {
-	 font-size: 1.1rem;
+	 font-size: 1.2rem;
 }
+
  .buttons {
 	 display: grid;
 	 grid-template-columns: 30% 30% 30%;
 	 justify-content: center;
-	 padding: 20px 0;
+	 padding: 10px 0;
 	 margin: 10px;
 	 font-weight: bold;
 	 font-size: 0.9rem;
@@ -59,18 +60,50 @@
 }
  .content-center{
 	 width: 100%;
+	 font-size: 1.3rem;
+	 text-align: justify;
+	 justify-content: center;
 }
- .content-center-half{
-	 width: 50%;
+ .content-center-nonstop{
+	 width: 100%;
+	 text-align: left;
+	 font-size: 0.7rem;
+	 line-height: 1.6;
+}
+
+.content-center-half{
+	 width: 60%;
 	 margin: auto;
+	 text-align: justify;
 }
+
+.content-split {
+	 width: 100%;
+	 display: grid;
+	 row-gap: 15px;
+	 grid-template-rows: 50% 50%;
+}
+
  @media screen and (min-width: 640px) {
-	 .content-left{
-		 width: 50%;
-		 float: left;
+	 .content-split {
+		 width: 100%;
+		 display: grid;
+		 column-gap: 50px;
+		 grid-template-columns: 50% 50%;
 	}
-	 .content-right{
-		 width: 50%;
-		 float: right;
+	body {
+		 width: 60vw;
 	}
+}
+
+.content-img-text {
+	 width: 100%;
+	 display: grid;
+	 grid-template-columns: 60% 40%;
+	 font-size: 0.8rem;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+}
+.content-img-text > img{
+	 max-width: 80%;
 }
