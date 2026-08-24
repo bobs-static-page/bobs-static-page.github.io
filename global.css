@@ -2,7 +2,7 @@
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
 :root {
-font-size: clamp(1.2rem, 1.2vw + 1rem, 3rem); /*Standard font size*/
+font-size: clamp(0.8rem, 1vw + 0.8rem, 1.6rem); /*Standard font size*/
 }
 
 html, body {
@@ -10,12 +10,17 @@ padding: 0 1.1vw;
 margin: auto;
 max-height: 97vh;
 max-width: 95vw;
-background-color: SeaShell;
+background-color: #F7F5F2;
 font-family: Courier, monospace;
+color: #06203F;
+}
+
+footer {
+font-size: 0.5rem;
+text-align: center;
 }
 
 p {
-font-family: Courier, monospace;
 font-size: 1rem;
 color: DarkSlateGrey;
 line-height: 1.4;
@@ -45,7 +50,38 @@ grid-template-columns: 30% 30% 30%;
 justify-content: center;
 padding: 20px 0;
 margin: 10px;
-font-family: Trebuchet MS, sans-serif;
+font-weight: bold;
 font-size: 0.9rem;
 text-align: center;
+}
+
+.ideas-grid {
+display: grid;
+grid-template-columns: 47% 47%;
+grid-template-rows: 50%;
+justify-content: center;
+padding: 20px 0;
+margin: 10px;
+font-weight: bold;
+font-size: 0.9rem;
+text-align: center;
+}
+
+.content-center{
+width: 100%;
+}
+
+.content-center-half{
+width: 50%;
+margin: auto;
+}
+
+.content-left{
+width: 50%;
+float: left;
+}
+
+.content-right{
+width: 50%;
+float: right;
 }
