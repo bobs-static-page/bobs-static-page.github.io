@@ -1,25 +1,30 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
+@import url("button-uiverse.io.css");
 :root {
 	font-size: clamp(0.6rem, 0.8vw + 0.6rem, 1.2rem); /*Standard font size*/
 }
 html, body {
-	padding: 0 1.1vw;
-	margin: 0 auto;
-	max-height: 97vh;
-	max-width: 85vw;
-	background-color: FloralWhite;
+	height: 100%;
+	width: 100%;
+	background-color: MistyRose;
+	background: linear-gradient(180deg, FloralWhite, LavenderBlush, MistyRose);
 	font-family: Courier, monospace;
 	color: DarkSlateGrey;
 }
-div {
-	position: relative;
+header {
+	font-size: 0.8rem;
+	text-align: right;
+	top: 2%;
+	right: 4%;
+	position: absolute;
 }
 footer {
 	font-size: 0.8rem;
 	text-align: right;
-	margin-top: 40px;
-	bottom: 0;
+	bottom: 1%;
+	right: 3%;
+	position: absolute;
 }
 p {
 	line-height: 1.4;
@@ -38,68 +43,16 @@ h2 {
 }
 h3 {
 	font-size: 1.4rem;
-}
-.menu {
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
+} 
+.center {
+	display: flex;
+	align-items: center;
 	justify-content: center;
-	padding: 10px 0;
-	margin: 10px;
-	font-weight: bold;
-	font-size: 1.3rem;
-	text-align: center;
+	height: 100%;
 }
-.ideas-grid {
+
+.menu-grid-home{
 	display: grid;
-	grid-template-columns: 47% 47%;
-	grid-template-rows: 50%;
-	justify-content: center;
-	padding: 20px 0;
-	margin: 10px;
-	font-weight: bold;
-	text-align: center;
-}
-.content-center{
-	width: 100%;
-	font-size: 1.2rem;
-	text-align: justify;
-	justify-content: center;
-}
-.content-center-nonstop{
-	width: 100%;
-	font-size: 0.9rem;
-	line-height: 1.6;
-}
-.content-center-half{
-	width: 60%;
-	text-align: justify;
-}
-.content-split {
-	width: 100%;
-	display: grid;
-	margin: 3% auto;
-	grid-template-rows: 50% 50%;
-}
-@media screen and (min-width: 850px) {
-	.content-split {
-		width: 100%;
-		display: grid;
-		column-gap: 6%;
-		grid-template-columns: 47% 47%;
-	}
-	body {
-		width: 60vw;
-	}
-	.content-center > p{
-		text-align: center;
-	}
-}
-.content-img-text {
-	width: 100%;
-	display: grid;
-	grid-template-columns: 60% 40%;
-	column-gap: 10px;
-}
-.content-img-text > img{
-	max-width: 100%;
+	grid-template-columns: auto auto auto;
+	column-gap: 15px;
 }
