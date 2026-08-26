@@ -6,7 +6,6 @@
 }
 html, body {
 	height: 100%;
-	background-color: MistyRose;
 	background: linear-gradient(180deg, FloralWhite, LavenderBlush, MistyRose);
 	font-family: Courier, monospace;
 	color: DarkSlateGrey;
@@ -43,12 +42,6 @@ h2 {
 h3 {
 	font-size: 1.4rem;
 }
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 .center {
 	display: flex;
@@ -57,9 +50,23 @@ h3 {
 	height: 100%;
 	width: 100%;
 }
-
+.center > h1 {
+	font-size: 2rem;
+}
+.center > h1 > span{
+	font-size: 5rem;
+}
 .menu-grid-home{
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 15px;
+}
+
+@media screen and (min-width: 430px) {
+	.center > h1 {
+		font-size: 1rem;
+	}
+	.center > h1 > span{
+		font-size: 2.5rem;
+	}
 }
