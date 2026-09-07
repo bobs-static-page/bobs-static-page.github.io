@@ -2,29 +2,63 @@
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 @import url("button-uiverse.io.css");
 @import url("colours.css");
+@import url("fonts.css");
 :root {
-	font-size: 2vw; /*Standard font size*/
+	font-size: clamp(calc(1vw + 16px), calc(1vw + 18px), calc(1vw + 21px)); /*Standard font size*/
 	font-family: Proza_Libre;
-	color: DarkSlateGrey;
+	color: Black;
 }
 
-@font-face {
-  font-family: Proza_Libre;
-  src: url(../fonts/Proza_Libre/ProzaLibre-Regular.ttf);
+.brand-font {
+	font-family: Prata;
 }
 
-@font-face {
-  font-family: Atkinson_Hyperlegible;
-  src: url(../fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf);
+header {
+	width: 80vw;
+	margin: auto;
+}
+
+.menu-drop > p {
+	display: none;
+}
+
+.menu {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content: center;
+	column-gap: 6%;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	padding: 0;
+}
+
+@media only screen and (max-width: 750px) {
+	.menu {
+		  display: none;
+		  position: absolute;
+		  background-color: GhostWhite;
+		  width: 100%;
+		  top: 1%;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	.menu-drop > p {
+		display: block;
+	}
+	
+	.menu-drop:hover .menu {
+	  display: block;
+	}
+
 }
 
 p {
 	line-height: 1.4;
-	margin: auto;
 }
 h1, h2, h3 {
 	font-family: Atkinson_Hyperlegible;
-	color: DimGray;
+	color: Licorice;
 	line-height: 1.2;
 }
 h1 {
@@ -43,24 +77,25 @@ h3 {
 	justify-content: center;
 	height: 100%;
 	width: 100%;
-}
-.center > h1 {
-	font-size: 3rem;
-}
-.center > h1 > span{
-	font-size: 7.5rem;
-}
-.menu-grid-home{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 15px;
+	margin: auto;
 }
 
-@media screen and (min-width: 430px) {
-	.center > h1 {
-		font-size: 1rem;
-	}
-	.center > h1 > span{
-		font-size: 2.5rem;
-	}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a {
+	color: Black;
 }

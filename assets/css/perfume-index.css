@@ -1,13 +1,13 @@
 @import url("global.css");
 html, body {
-	background: GhostWhite;
+	background: White;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
 }
 
 .perfume-grid {
-	width: 70vw;
+	width: 60vw;
 	display: grid;
 	grid-template-columns: 24% 24% 24% 24%;
 	column-gap: 3%;
@@ -17,20 +17,30 @@ html, body {
 	padding-bottom: 5%;
 }
 
-.perfume-grid > img {
+.perfume-grid > div > img {
 	width: 100%;
 	border-width: 0 0 thick;
 	margin: 3% auto;
 }
 
 h1 {
-	font-size: 2rem;
-	margin: 1.5% auto;
+	font-size: 1.8rem;
 }
 
-p {
+.top-content {
 	width: 85vw;
-	font-size: 0.8rem;
+}
+
+.perfume-desc {
+	text-align: center;
+	position: relative;
+    width: 100%;
+	height: 0%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: Black;
+	font-size: 0.7rem;
 }
 
 @media screen and (max-width: 970px) {
@@ -38,11 +48,9 @@ p {
 		width: 85vw;
 		grid-template-columns: 32% 32% 32%;
 	}
+	
 	h1 {
-		font-size: 3rem;
-	}
-	p {
-		font-size: 1rem;
+		font-size: 2.3rem;
 	}
 }
 
@@ -51,23 +59,20 @@ p {
 		width: 90vw;
 		grid-template-columns: 48% 48%;
 	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	.perfume-desc {
+		font-size: 0.5rem;
+	}
 }
 
 footer {
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	margin: auto;
+	grid-template-columns: 45% 45%;
 	width: 95%;
-	font-size: 16px;
-	justify-content: center;
-}
-
-footer > .f-left {
-	float: left;
-}
-footer > .f-center {
-	align-items: center;
-}
-footer > .f-right {
-	float: right;
+	column-gap: 5%;
+	font-size: 2vw;
 }
