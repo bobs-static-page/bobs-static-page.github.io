@@ -6,14 +6,11 @@ html, body {
 
 .menu-grid-home{
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-row: 1fr 1fr 1fr;
-	row-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 15px;
 }
-
-.menu-grid-home > a{
-	margin: auto;
-	margin-top: 20px;
+.menu-grid-home > a > button {
+	font-size: 1rem;
 }
 
 h1 > span {
@@ -28,19 +25,19 @@ footer {
 	position: absolute;
 }
 
-@media screen and (min-width: 430px) {
-	h1 {
-		font-size: 1.8rem;
-	}
+@media screen and (max-width: 440px) {
 	h1 > span{
-		font-size: 3.6rem;
+		font-size: 2rem;
 	}
 	.menu-grid-home{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		column-gap: 15px;
+		grid-template-columns: 1fr;
+		grid-template-row: 1fr 1fr 1fr;
+		row-gap: 10px;
 	}
-	.menu-grid-home > a > button {
-		font-size: 1rem;
+
+	.menu-grid-home > a{
+		margin: auto;
+		margin-top: 20px;
 	}
 }

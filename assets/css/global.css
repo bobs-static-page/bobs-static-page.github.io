@@ -9,10 +9,6 @@
 	color: Black;
 }
 
-.brand-font {
-	font-family: Prata;
-}
-
 header {
 	width: 80vw;
 	margin: auto;
@@ -26,7 +22,6 @@ header {
 	position: relative;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	justify-content: center;
 	column-gap: 6%;
 	align-items: center;
 	margin: auto;
@@ -38,7 +33,7 @@ header {
 	.menu {
 		  display: none;
 		  position: absolute;
-		  background-color: GhostWhite;
+		  background-color: White;
 		  width: 90%;
 		  top: 2.5rem;
 		  border: solid;
@@ -59,11 +54,12 @@ p {
 }
 h1, h2, h3 {
 	font-family: Atkinson_Hyperlegible;
-	color: Licorice;
+	color: #1B1212;
 	line-height: 1.2;
 }
+
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 h2 {
 	font-size: 1.45rem;

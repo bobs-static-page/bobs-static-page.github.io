@@ -1,9 +1,6 @@
 @import url("global.css");
-html, body {
-	background: White;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
+body {
+	background: Snow;
 }
 
 .perfume-grid {
@@ -17,14 +14,10 @@ html, body {
 	padding-bottom: 5%;
 }
 
-.perfume-grid > div > img {
+.perfume-img {
 	width: 100%;
 	border-width: 0 0 thick;
 	margin: 3% auto;
-}
-
-h1 {
-	font-size: 1.8rem;
 }
 
 .top-content {
@@ -41,9 +34,10 @@ h1 {
     transform: translate(-50%, -50%);
     color: Black;
 	font-size: 0.7rem;
+	height: 4vh;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1010px) {
 	.perfume-grid {
 		width: 85vw;
 		grid-template-columns: 32% 32% 32%;
@@ -54,7 +48,7 @@ h1 {
 	}
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
 	.perfume-grid {
 		width: 90vw;
 		grid-template-columns: 48% 48%;
