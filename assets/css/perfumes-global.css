@@ -59,7 +59,7 @@ footer {
 	font-size: 2vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 890px) {
 	.perfume-layout {
 		grid-template-rows: 1fr auto;
 		grid-template-columns: 1fr;
