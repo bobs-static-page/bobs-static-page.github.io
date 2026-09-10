@@ -29,6 +29,10 @@ header {
 	padding: 0;
 }
 
+#pqr-toggle-div {
+	display: flex;
+}
+
 @media only screen and (max-width: 750px) {
 	.menu {
 		  display: none;
@@ -39,9 +43,11 @@ header {
 		  border: solid;
 		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	}
-	.menu-drop > p {
+	.menu-drop > p, #pqr-toggle-div {
 		display: block;
 	}
+	
+	
 	
 	.menu-drop:hover .menu {
 	  display: block;
