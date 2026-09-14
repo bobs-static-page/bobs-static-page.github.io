@@ -1,68 +1,35 @@
-.citrus-family-colour {background-color: #ffe107}
-.citrus-family-colour-border {border: solid #ffe107}
-.citrus-family--colour-font {color: #ffe107}
+.red-fragrance-colour {background-color: #B91825}
+.red-fragrance-colour-border {border: solid #B91825;}
+.red-fragrance--colour-font {color: #B91825}
 
-.herb-family-colour {background-color: #008000}
-.herb-family-colour-border {border: solid #008000}
-.herb-family--colour-font {color: #008000}
+.yellow-fragrance-colour {background-color: #FFE72E}
+.yellow-fragrance-colour-border {border: solid #FFE72E}
+.yellow-fragrance--colour-font {color: #FFE72E}
 
-.floral-family-colour {background-color: #ffc0cb}
-.floral-family-colour-border {border: solid #ffc0cb}
-.floral-family--colour-font {color: #ffc0cb}
+.green-fragrance-colour {background-color: #27AA64}
+.green-fragrance-colour-border {border: solid #27AA64}
+.green-fragrance--colour-font {color: #27AA64}
 
-.spice-family-colour {background-color: #ffa500}
-.spice-family-colour-border {border: solid #ffa500}
-.spice-family--colour-font {color: #ffa500}
+.blue-fragrance-colour {background-color: #38BCF5}
+.blue-fragrance-colour-border {border: solid #38BCF5}
+.blue-fragrance--colour-font {color: #38BCF5}
 
-.gourmand-family-colour {background-color: #a52a2a}
-.gourmand-family-colour-border {border: solid #a52a2a}
-.gourmand-family--colour-font {color: #a52a2a}
+.purple-fragrance-colour {background-color: #492F75}
+.purple-fragrance-colour-border {border: solid #492F75}
+.purple-fragrance--colour-font {color: #492F75}
 
-.wood-family-colour {background-color: #000000}
-.wood-family-colour-border {border: solid #000000}
-.wood-family--colour-font {color: #000000}
+.brown-fragrance-colour {background-color: #5A4030}
+.brown-fragrance-colour-border {border: solid #5A4030}
+.brown-fragrance--colour-font {color: #5A4030}
 
-.Earth-family-colour {background-color: #006400}
-.Earth-family-colour-border {border: solid #006400}
-.Earth-family--colour-font {color: #006400}
+.pink-fragrance-colour {background-color: #FF8ACC}
+.pink-fragrance-colour-border {border: solid #FF8ACC}
+.pink-fragrance--colour-font {color: #FF8ACC}
 
-.resin-family-colour {background-color: #aa7d2d}
-.resin-family-colour-border {border: solid #aa7d2d}
-.resin-family--colour-font {color: #aa7d2d}
+.orange-fragrance-colour {background-color: #EB7814}
+.orange-fragrance-colour-border {border: solid #EB7814}
+.orange-fragrance--colour-font {color: #EB7814}
 
-.incense-family-colour {background-color: #808080}
-.incense-family-colour-border {border: solid #808080}
-.incense-family--colour-font {color: #808080}
-
-.animalic-family-colour {background-color: #8b0000}
-.animalic-family-colour-border {border: solid #8b0000}
-.animalic-family--colour-font {color: #8b0000}
-
-.oud-family-colour {background-color: #800080}
-.oud-family-colour-border {border: solid #800080}
-.oud-family--colour-font {color: #800080}
-
-
-.red-fragrance-colour {background-color: #ff0000}
-.red-fragrance-colour-border {border: solid #ff0000;}
-.red-fragrance--colour-font {color: #ff0000}
-
-.yellow-fragrance-colour {background-color: #ffff00}
-.yellow-fragrance-colour-border {border: solid #ffff00}
-.yellow-fragrance--colour-font {color: #ffff00}
-
-.green-fragrance-colour {background-color: #008000}
-.green-fragrance-colour-border {border: solid #008000}
-.green-fragrance--colour-font {color: #008000}
-
-.blue-fragrance-colour {background-color: #0000ff}
-.blue-fragrance-colour-border {border: solid #0000ff}
-.blue-fragrance--colour-font {color: #0000ff}
-
-.purple-fragrance-colour {background-color: #800080}
-.purple-fragrance-colour-border {border: solid #800080}
-.purple-fragrance--colour-font {color: #800080}
-
-.brown-fragrance-colour {background-color: #a52a2a}
-.brown-fragrance-colour-border {border: solid #a52a2a}
-.brown-fragrance--colour-font {color: #a52a2a}
+.grey-fragrance-colour {background-color: #ADADAD}
+.grey-fragrance-colour-border {border: solid #ADADAD}
+.grey-fragrance--colour-font {color: #ADADAD}
