@@ -12,14 +12,20 @@ body {
 	align-items: center;
 }
 
+.perfume-layout > div > p {
+	font-size: 0.5rem;
+}
+
 .menu {
 	grid-template-columns: auto auto auto auto auto;
 }
 
+h1, h3 {
+	margin: 0;
+}
 
-@media only screen and (max-width: 750px) {
-	
-
+h2 {
+	margin: 0 0 20px 0
 }
 
 .pqr-layout {
@@ -68,6 +74,7 @@ footer {
 
 table {
   border-collapse: collapse;
+	font-size: 0.5rem;
 }
 table td {
   border: 1px solid black; 
