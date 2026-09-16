@@ -1,0 +1,34 @@
+@import url("global.css");
+html, body {
+	height: 100%;
+	background: linear-gradient(180deg, #1A1100, #00161A, #04001A);
+	color: #FFFAF0;
+}
+
+.center {position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+footer {
+	font-size: 0.8rem;
+	text-align: right;
+	bottom: 1%;
+	right: 3%;
+	position: absolute;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  250% {
+    opacity: 1;
+  }
+}
+
+.logo-fade {
+  animation: 1.5s fade;
+  max-width: 50vw;
+  max-height: 50vh;
+}
