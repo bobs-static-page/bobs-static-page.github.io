@@ -18,17 +18,10 @@ footer {
 	position: absolute;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  250% {
-    opacity: 1;
-  }
+.logo {
+	animation: 1.5s fadeIn;
+	max-width: 50vw;
+	max-height: 50vh;
+	aspect-ratio: 1/1;
 }
 
-.logo-fade {
-  animation: 1.5s fade;
-  max-width: 50vw;
-  max-height: 50vh;
-}

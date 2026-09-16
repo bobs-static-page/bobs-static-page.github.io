@@ -4,7 +4,15 @@ html, body {
 	background: linear-gradient(180deg, #FFFAF0, #FFF0F5, #FFE4E1);
 }
 
+@keyframes fadeInUp {
+	0% {
+		transform: translateY(410%);
+		opacity: 0;
+	}
+}
+
 .menu-grid-home{
+	animation: 3s fadeInUp;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 15px;

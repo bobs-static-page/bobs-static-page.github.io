@@ -100,3 +100,32 @@ a:active {
 a {
 	color: Black;
 }
+
+@keyframes fadeIn {
+	0% {  
+		opacity: 0;
+	}
+	250% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	250% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+	}
+	250% {
+		opacity: 1;
+	}
+}
