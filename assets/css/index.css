@@ -12,7 +12,8 @@ html, body {
 }
 
 .menu-grid-home{
-	animation: 3s fadeInUp;
+	animation-name: fadeInUp;
+	animation-duration: 3s;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 15px;
@@ -21,7 +22,7 @@ html, body {
 	font-size: 1rem;
 }
 
-h1 > span {
+.subtitle {
 	font-size: 2rem;
 }
 
@@ -39,13 +40,13 @@ footer {
 }
 
 @media screen and (max-width: 440px) {
-	h1 > span{
+	.subtitle {
 		font-size: 2rem;
 	}
 	.menu-grid-home{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-row: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
 		row-gap: 10px;
 	}
 
