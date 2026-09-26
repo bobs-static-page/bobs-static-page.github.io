@@ -4,16 +4,8 @@ html, body {
 	background: linear-gradient(180deg, #FFFAF0, #FFF0F5, #FFE4E1);
 }
 
-@keyframes fadeInUp {
-	0% {
-		transform: translateY(410%);
-		opacity: 0;
-	}
-}
-
 .menu-grid-home{
-	animation-name: fadeInUp;
-	animation-duration: 3s;
+	animation: 3s fadeInUp;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 15px;
@@ -53,5 +45,12 @@ footer {
 	.menu-grid-home > a{
 		margin: auto;
 		margin-top: 20px;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		transform: translateY(410%);
+		opacity: 0;
 	}
 }

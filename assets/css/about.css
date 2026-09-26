@@ -1,8 +1,14 @@
 @import url("global.css");
+@import url("aboutSelection-uiverse.io.css");
 html, body {
 	height: 100%;
 	background: linear-gradient(180deg, #1A1100, #00161A, #04001A);
 	color: #FFFAF0;
+}
+
+h1, h2, h3 {
+	color: #FFFAF0;
+	margin: 0;
 }
 
 .center {
@@ -30,17 +36,113 @@ footer {
 	aspect-ratio: 1/1;
 }
 
-.test {
-	text-align: center;
-	position: relative;
-    width: 100%;
-	height: 0%;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: Black;
-	font-size: 0.7rem;
-	height: 4vh;
+.about-selection {
+	top: 25%;
+	font-size: 2rem;
+	visibility: hidden;
+	animation: 0s 5s display ease-in forwards;
+	font-size: 3vw;
+}
+
+.about-selection-content {
+	width: 50vw;
+	top: 60%;
+}
+
+#slow-content {
+	display: none;
+}
+
+#tayyib-content {
+	display: none;
+}
+
+#human-content {
+	display: none;
+}
+
+#home-content {
+	display: none;
+}
+
+body:has(#slow:checked) > .about-selection-content > #slow-content {
+	display: block;
+}
+
+body:has(#tayyib:checked) > .about-selection-content > #tayyib-content {
+	display: block;
+}
+
+body:has(#human:checked) > .about-selection-content > #human-content {
+	display: block;
+}
+
+body:has(#home:checked) > .about-selection-content > #home-content {
+	display: block;
+}
+
+.about-selection-1 {
+	animation: 1s 5s fadeInRight
+}
+
+.about-selection-2 {
+	animation: 1s 5s fadeInUp
+}
+
+.about-selection-3 {
+	animation: 1s 5s fadeInLeft
+}
+
+@media screen and (max-width: 1440px) {
+	.about-selection {
+		font-size: 5vw;
+	}
+	.about-selection-content {
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	
+	p {font-size: 3.7vw}
+	
+	.about-selection {
+		display: none;
+	}
+	
+	.about-selection-content {
+		top: 47%;
+		display: block;
+		height: auto;
+		width: 90vw;
+	}
+	
+	#slow-content {
+		visibility: hidden;
+		animation: 1s 5s fadeInUp ease-in forwards;
+		display: block;
+	}
+
+	#tayyib-content {
+		visibility: hidden;
+		animation: 1s 6s fadeInUp ease-in forwards;
+		display: block;
+		padding: 7px 0px;
+	}
+
+	#human-content {
+		visibility: hidden;
+		animation: 1s 7s fadeInUp ease-in forwards;
+		display: block;
+	}
+	
+	#home-content {
+		visibility: hidden;
+		animation: 1s 8s fadeInUp ease-in forwards;
+		display: block;
+		padding-top: 2%;
+		font-size: 9vw;
+	}
 }
 
 @keyframes edge {
@@ -52,11 +154,12 @@ footer {
 	}
 }
 
-@keyframes display {
-	100% {
-		display: block;
-	}
+@keyframes fadeInUp {
 	0% {
-		display: none;
+		transform: translateY(410%);
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
 	}
 }
