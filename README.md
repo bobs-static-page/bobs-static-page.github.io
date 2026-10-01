@@ -1,2 +1,1 @@
-# ideas
-Static webpage for Bob
+# Proving human creativity doesn't need AI
