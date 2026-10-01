@@ -7,7 +7,7 @@ html, body {
 .menu-grid-home{
 	animation: 3s fadeInUp;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: auto auto auto;
 	column-gap: 15px;
 }
 .menu-grid-home > a > button {
@@ -34,6 +34,10 @@ footer {
 @media screen and (max-width: 440px) {
 	.subtitle {
 		font-size: 2rem;
+	}
+	h1 {
+		left: 1%;
+		position: relative;
 	}
 	.menu-grid-home{
 		display: grid;

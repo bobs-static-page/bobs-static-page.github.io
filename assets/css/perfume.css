@@ -3,8 +3,12 @@ body {
 	background: Snow;
 }
 
+.subtext-link {
+	margin: auto;
+}
+
 .perfume-grid {
-	width: 60vw;
+	width: 75vw;
 	display: grid;
 	grid-template-columns: 24% 24% 24% 24%;
 	column-gap: 3%;
@@ -21,7 +25,7 @@ body {
 }
 
 .top-content {
-	width: 85vw;
+	width: 80vw;
 }
 
 .perfume-desc {
